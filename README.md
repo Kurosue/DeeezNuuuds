@@ -10,23 +10,23 @@
 
 ## Struktur Repo
 .
-├── README.md
-├── VM1_DNS
-│   ├── db.deeznuds.local
-│   ├── dhcpd.conf
-│   ├── interfaces
-│   └── named.conf.local
-├── VM2_HTTP
-│   ├── apache_setup.sh
-│   └── interfaces
-├── VM3_Client
-│   ├── interfaces
-│   ├── resolve.conf
-│   └── Script.py
-└── VM4_RevProx
-    ├── default
-    ├── firewall_setup.sh
-    └── interfaces
+|-- README.md
+|-- VM1_DNS
+│   |-- db.deeznuds.local
+│   |-- dhcpd.conf
+│   |-- interfaces
+│   |-- named.conf.local
+|-- VM2_HTTP
+│   |-- apache_setup.sh
+│   |-- interfaces
+|-- VM3_Client
+│   |-- interfaces
+│   |-- resolve.conf
+│   |-- Script.py
+|-- VM4_RevProx
+    |-- default
+    |-- firewall_setup.sh
+    |-- interfaces
 
 ---
 
