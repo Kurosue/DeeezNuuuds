@@ -1,0 +1,3 @@
+# Didalam /etc/network/ 
+auto ens33
+iface ens33 inet dhcp

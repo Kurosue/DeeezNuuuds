@@ -1,0 +1,4 @@
+zone "deeznuds.local" {
+    type master;
+    file "/etc/bind/db.deeznuds.local";
+};

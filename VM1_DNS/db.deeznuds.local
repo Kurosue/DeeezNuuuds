@@ -1,0 +1,12 @@
+$TTL    604800
+@       IN      SOA     ns.deeznuds.local. root.deeznuds.local. (
+                        2         
+                        604800  
+                        86400   
+                        2419200   
+                        604800 )  
+;
+@       IN      NS      ns.deeznuds.local.
+ns      IN      A       192.168.56.10   ; VM1
+www     IN      A       192.168.56.40   ; VM4 
+

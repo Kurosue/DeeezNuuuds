@@ -1,0 +1,10 @@
+# Nanti ditaruh di /etc/nginx/sites-available/default
+server {
+    listen 80;
+    server_name www.deeznuds.local;
+
+    location / {
+        proxy_pass http://192.168.56.20:8080;
+    }
+}
+
