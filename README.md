@@ -9,6 +9,7 @@
 ---
 
 ## Struktur Repo
+```
 .
 |-- README.md
 |-- VM1_DNS
@@ -27,6 +28,7 @@
     |-- default
     |-- firewall_setup.sh
     |-- interfaces
+```
 
 ---
 
